@@ -7,6 +7,7 @@ import HelloWorld from './components/HelloWorld';
 import Hochu from './components/Hochu';
 import Length from './components/Length';
 import Lowercase from './components/Lowercase';
+import Random from './components/Random';
 import Round from './components/Round';
 import Song from './components/Song';
 import Sum from './components/Sum';
@@ -37,6 +38,7 @@ function App() {
       <Water frozen={false}/>
       <Sum a={4} b={5}/>
       <Sum a={-356} b={181}/>
+      <Random/>
     </div>
   );
 }
