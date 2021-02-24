@@ -1,5 +1,6 @@
 
 import Age from './components/Age';
+import BigSmall from './components/BigSmall';
 import Book from './components/Book';
 import ByeWorld from './components/Bye';
 import Cunga from './components/Cunga';
@@ -39,6 +40,7 @@ function App() {
       <Sum a={4} b={5}/>
       <Sum a={-356} b={181}/>
       <Random/>
+      <BigSmall a={8} b={5}/>
     </div>
   );
 }
