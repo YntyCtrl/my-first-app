@@ -1,46 +1,30 @@
+const { default: Counter } = require("./components/Counter");
+const { default: Family } = require("./components/Family");
+const { default: List } = require("./components/List");
+const { default: List2 } = require("./components/List2");
+const { default: Name } = require("./components/Name");
+const { default: Rute } = require("./components/Rute");
+const { default: Table } = require("./components/Table");
+const { default: Upper } = require("./components/Upper");
+const { default: Wealth } = require("./components/Wealth");
 
-import Age from './components/Age';
-import BigSmall from './components/BigSmall';
-import Book from './components/Book';
-import ByeWorld from './components/Bye';
-import Cunga from './components/Cunga';
-import HelloWorld from './components/HelloWorld';
-import Hochu from './components/Hochu';
-import Length from './components/Length';
-import Lowercase from './components/Lowercase';
-import Random from './components/Random';
-import Round from './components/Round';
-import Song from './components/Song';
-import Sum from './components/Sum';
-import Uppercase from './components/Uppercase';
-import Water from './components/Water';
-import Year from './components/Year';
+
 
 function App() {
+  let richPeople = ["Elon Musk", "Jeff Besos", "Bill Gates"];
+  let peopleWelth = [
+    {name: "Elon Musk", wealth: 234234234234},
+    {name: "Jeff Besos", wealth: 234234234234},
+    {name: "Bill Gates", wealth: 234234234234},
+  ];
+  let number = [4, 6, 1, 9, 2];
+  let family = ["M", "K", "J", "S", "Y", "A", "P", "Y"]
+
   return (
     <div className="App">
-      <HelloWorld/>
+      <Counter/>
+      <Name/>
       
-      <ByeWorld/>
-      
-      <Cunga/>
-      
-      <Hochu v="dubai"/>
-
-      <Book name="Control" author="Yntymak"/>
-      <Song name="Despasito" artist="Luck"/>
-      <Length string="Yntymak"/>
-      <Uppercase>HFNF</Uppercase>
-      <Lowercase>sdfsdf</Lowercase>
-      <Age year={1998}/>
-      <Year age={23}/>
-      <Round number={45.2342342}/>
-      <Water frozen={true}/>
-      <Water frozen={false}/>
-      <Sum a={4} b={5}/>
-      <Sum a={-356} b={181}/>
-      <Random/>
-      <BigSmall a={8} b={5}/>
     </div>
   );
 }
