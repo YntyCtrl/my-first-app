@@ -2,6 +2,7 @@ const { default: Counter } = require("./components/Counter");
 const { default: Family } = require("./components/Family");
 const { default: List } = require("./components/List");
 const { default: List2 } = require("./components/List2");
+const { default: Massive } = require("./components/Massive");
 const { default: Name } = require("./components/Name");
 const { default: Rute } = require("./components/Rute");
 const { default: Table } = require("./components/Table");
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <Counter/>
       <Name/>
+      <Massive/>
       
     </div>
   );
