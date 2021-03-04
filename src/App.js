@@ -16,6 +16,7 @@ const { default: Temp } = require("./components/Temp");
 const { default: Upper } = require("./components/Upper");
 const { default: Wealth } = require("./components/Wealth");
 const { default: ColorSlider } = require("./components/ColorSlider");
+const { default: Transform } = require("./components/Transform");
 
 
 
@@ -42,6 +43,7 @@ function App() {
       <Fontsize/>
       <Color/>
       <ColorSlider/>
+      <Transform/>
     </div>
   );
 }
