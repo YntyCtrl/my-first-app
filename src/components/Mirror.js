@@ -15,7 +15,7 @@ function Mirror(){
     return <div className="example-5">
              
             <input type="text" onInput={(event) => setText(event.target.value)}/>:
-            <span></span>
+            <span><bdo dir="rtl">{text}</bdo></span>
             
 
     </div>
