@@ -17,6 +17,7 @@ const { default: Upper } = require("./components/Upper");
 const { default: Wealth } = require("./components/Wealth");
 const { default: ColorSlider } = require("./components/ColorSlider");
 const { default: Transform } = require("./components/Transform");
+const { default: Mirror } = require("./components/Mirror");
 
 
 
@@ -32,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/>
       <Name/>
       <Massive/>
       <InputLength value="test"/>
@@ -42,8 +43,9 @@ function App() {
       <Temp/>
       <Fontsize/>
       <Color/>
-      <ColorSlider/>
+      <ColorSlider/> */}
       <Transform/>
+      <Mirror/>
     </div>
   );
 }
