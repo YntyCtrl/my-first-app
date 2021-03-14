@@ -1,0 +1,35 @@
+/* .Person {
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 5px;
+    margin: 10px;
+    
+   
+    
+}
+.age {
+    color: tomato;
+}
+.name {
+    text-decoration: underline;
+}
+.hobby {
+ font-style: italic;
+ 
+} */
+
+.Person {
+    
+    flex: 1 0 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 15px;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+    max-width: 150px;
+}
+.photo {
+    width: 50px;
+    height: 50px;
+}
