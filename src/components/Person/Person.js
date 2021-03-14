@@ -13,14 +13,15 @@
 import classes from "./Person.module.css";
 
 
-const Person = ({ name, role, wpm, commits, photo }) => {
+const Person = ({ name, role, wpm, commits, photo, link }) => {
     return (
         <div className={classes.Person}>
             <div className={classes.name}>{name}</div>
             <div className={classes.role}>{role}</div>
             <div className={classes.wpm}>{wpm}WPM</div>
             <div className={classes.commits}>{commits} commits</div>
-            <img className={classes.photo} src={photo}/>
+            <img className={classes.photo} src={photo}/><br></br>
+            <a className={classes.link} href={link}>Git Hub</a>
         </div>
     );
 }

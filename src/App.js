@@ -53,7 +53,7 @@ function App() {
     { name: "Tatyna", role: "Student", wpm: 27, commits: 572541 },
     { name: "Emirlan", role: "Student", wpm: 20, commits: 56566 },
     { name: "Baitemir", role: "Student", wpm: 35, commits: 556 },
-    { name: "Yntymak", role: "Student", wpm: 40, commits: 55, photo:"/img/photo_2021-02-02_17-04-27.jpg" },
+    { name: "Yntymak", role: "Student", wpm: 40, commits: 55, photo:"/img/photo_2021-02-02_17-04-27.jpg", link:"https://github.com/YntyCtrl" },
     { name: "Tamara", role: "Student", wpm: 32, commits: 999 },
     { name: "Nurkyz", role: "Student", wpm: 39, commits: 26 },
     { name: "Kunduz", role: "Student", wpm: 38, commits: 99 },
